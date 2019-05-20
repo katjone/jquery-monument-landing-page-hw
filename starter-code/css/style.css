@@ -384,6 +384,16 @@ Error Styles
 ------------------------------------------- */
 /* Add error styles here */
 
+.error {
+	border: 2px solid #ED5254;
+}
+
+.error-message {
+	color: #ED5254;
+	margin-top: -10px;
+	display: none;
+	
+}
 
 
 /* ----------------------------------------
@@ -455,3 +465,12 @@ Media Queries
 
 
 
+/*  */
+
+.contact > .form-group {
+	border: 5px solid purple;
+}
+
+.contact > .form-group > input {
+	border: 3px solid green;
+}
